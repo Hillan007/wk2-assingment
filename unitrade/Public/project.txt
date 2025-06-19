@@ -1,0 +1,23 @@
+my-website/
+├── public/              # Static assets (CSS, JS, images)
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── views/               # Frontend templates (e.g. EJS, Pug)
+│   ├── index.ejs
+│   ├── login.ejs
+│   └── dashboard.ejs
+├── routes/              # Route handlers
+│   ├── auth.js
+│   └── dashboard.js
+├── models/              # Database models (e.g. Mongoose schemas)
+│   └── User.js
+├── controllers/         # Logic for handling requests
+│   └── authController.js
+├── config/              # Config files (e.g. DB connection, Passport)
+│   └── db.js
+├── .env                 # Environment variables (e.g. DB URI, secrets)
+├── .gitignore
+├── package.json         # Project metadata and dependencies
+├── server.js            # Main entry point
+└── README.md

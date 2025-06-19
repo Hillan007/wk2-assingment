@@ -1,0 +1,71 @@
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="https://via.placeholder.com/150x50?text=Blog+Logo" alt="Blog Logo" class="h-10">
+        <a href="#" class="text-2xl font-bold text-gray-800 ml-2">BlogSphere</a>
+      </div>
+      <div class="space-x-4">
+        <a href="#home" class="text-gray-600 hover:text-blue-500">Home</a>
+        <a href="#about" class="text-gray-600 hover:text-blue-500">About</a>
+        <a href="#blog" class="text-gray-600 hover:text-blue-500">Blog</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-20 pb-10 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Welcome to BlogSphere</h1>
+      <p class="text-lg md:text-xl mb-6">Discover stories, ideas, and inspiration from around the world.</p>
+      <a href="#blog" class="bg-white text-blue-500 px-6 py-3 rounded-full font-semibold hover:bg-blue-100">Explore Posts</a>
+    </div>
+  </section>
+
+  <!-- Blog Posts Section -->
+  <section id="blog" class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8">Latest Posts</h2>
+      <div id="blog-posts" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Blog posts will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">About Us</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">BlogSphere is a platform dedicated to sharing knowledge, stories, and insights. Our mission is to connect writers and readers in a vibrant community.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <p class="text-lg text-gray-600 mb-6">Have questions or want to collaborate? Reach out to us!</p>
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="text-gray-600 hover:text-blue-500"><i class='bx bxl-facebook-circle text-2xl'></i></a>
+        <a href="#" class="text-gray-600 hover:text-blue-500"><i class='bx bxl-twitter text-2xl'></i></a>
+        <a href="#" class="text-gray-600 hover:text-blue-500"><i class='bx bxl-instagram text-2xl'></i></a>
+        <a href="#" class="text-gray-600 hover:text-blue-500"><i class='bx bxl-linkedin-square text-2xl'></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 BlogSphere. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
